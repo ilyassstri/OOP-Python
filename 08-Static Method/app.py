@@ -34,7 +34,7 @@ class User:
     def tweet(word):
         return word
 
-# ilyas = User("ilyas", "trikhaqiqi@gmail.com", "user")
+ilyas = User("ilyas", "trikhaqiqi@gmail.com", "user")
 
 tweet = User.tweet("Selamat sore, Saya sedang belajar OOP Python")
 print(tweet)
