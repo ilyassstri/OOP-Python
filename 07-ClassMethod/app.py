@@ -36,9 +36,9 @@ name, email, role = string_params.split("-")
 ilyas_dua = User.from_string(string_params)
 
 print("")
-# print(User.total)
-# User.setTotal(10)
-# print(User.total)
+print(User.total)
+User.setTotal(10)
+print(User.total)
 
 print(ilyas_dua.info())
 
