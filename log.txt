@@ -1,0 +1,2 @@
+Ada beberapa yang masih belum dipelajari, diantaranya :
+- Penulisan python menggunakan PEP 8
