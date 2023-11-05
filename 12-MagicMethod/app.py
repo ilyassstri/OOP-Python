@@ -4,7 +4,7 @@ class Game:
     def __init__(self, title, price):
         self.title = title
         self.price = price
-        # print("Test, aku dipanggil cuy!")
+        print("Test, aku dipanggil cuy!")
 
     def __str__(self):
         return f"{self.title} - ${self.price}"
@@ -23,8 +23,8 @@ chika = Game("Barbie 2021", 130)
 risa = Game("Barbie 2021", 110)
 
 print(risa == chika)
-
 print(chika > risa)
 print(ilyas > risa)
-
 print(ilyas + risa)
+
+
